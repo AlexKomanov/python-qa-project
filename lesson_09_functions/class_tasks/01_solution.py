@@ -1,4 +1,4 @@
-def get_text_length(text="Hello"):
+def get_text_length(text: str = "Hello"):
     return len(text)
 
 

@@ -1,5 +1,5 @@
 # function with default argument
-def show_employee(name, salary=9000):
+def show_employee(name: str, salary=9000):
     print("Name:", name, "salary:", salary)
 
 
